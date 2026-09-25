@@ -17,9 +17,9 @@ public class MainDBJose {
     private static final String DB_USER = "postgres";
     private static final String DB_PASS = "oretania";
     public static void main(String[] args) {
-        final String host = "e884836eaeee40198a65f77cd34150d1.s1.eu.hivemq.cloud";
-        final String username = "jose2026";
-        final String password = "Jose2026";
+        final String host = "";
+        final String username = "";
+        final String password = "";
         final String topic = "zigbee2mqtt/0x385cfbfffec51fd9";
         CountDownLatch latch = new CountDownLatch(1);
         final Mqtt5AsyncClient client = MqttClient.builder()
