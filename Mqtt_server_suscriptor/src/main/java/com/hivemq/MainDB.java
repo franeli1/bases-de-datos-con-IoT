@@ -15,7 +15,7 @@ public class MainDB {
     //Configuracion PosgreSQL
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/prueba";
     private static final String DB_USER = "postgres";
-    private static final String DB_PASS = "oretania";
+    private static final String DB_PASS = "Password";
 
     public static void main(String[] args) {
         final String host = "";
