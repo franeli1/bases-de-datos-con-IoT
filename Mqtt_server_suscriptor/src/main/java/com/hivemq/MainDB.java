@@ -18,9 +18,9 @@ public class MainDB {
     private static final String DB_PASS = "oretania";
 
     public static void main(String[] args) {
-        final String host = "bdead0b1712a4c288dea50631d02be89.s1.eu.hivemq.cloud";
-        final String username = "Francisco";
-        final String password = "Franeli372626";
+        final String host = "";
+        final String username = "";
+        final String password = "";
         final String topic = "temp";
 
         CountDownLatch latch = new CountDownLatch(1);
